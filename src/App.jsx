@@ -15,6 +15,8 @@ function App() {
       <textarea name="" value={input2} id="" onChange={((e)=>setInput2(e.target.value))} cols="30" rows="10"></textarea>
       <textarea name="" value={input3} id="" onChange={((e)=>setInput3(e.target.value))} cols="30" rows="10"></textarea>
 
+      <h2>Note : words are counted once space are created</h2>
+
       <p>Input 1 total words = {input1.split(' ').length - 1} and {input1.length} characters</p>
       <p>Input 1 total words = {input2.split(' ').length - 1} and {input2.length} characters</p>
       <p>Input 1 total words = {input3.split(' ').length - 1} and {input3.length} characters</p>
